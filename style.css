@@ -1,29 +1,38 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: black;
+    background-color: #181717;
     padding: 20px;
 }
 
 .container {
     background-color: white;
     padding: 10px;
-    border-radius: 5px;
+    border-radius: 25px;
 }
 
+
 header, section, footer {
-    background-color: black;
+    background-color: #181717;
     margin-bottom: 15px;
     padding: 10px;
     text-align: center;
+    border-radius: 25px;
+    transition: transform 0.3s ease;
+}
+
+header:hover,
+section:hover,
+footer:hover {
+    transform: scale(1.01);
 }
 
 h1 {
-    color: #e60000;
+    color: cyan;
     font-weight: bold;
 }
 
 p, li {
-    color: #999933;
+    color: cyan;
     font-size: 1.2em;
 }
 
@@ -44,6 +53,10 @@ img {
 }
 
 a {
-    color: #3333cc;
+    color: cyan;
     text-decoration: none;
+}
+
+h2{
+    color: white;
 }
